@@ -1,0 +1,21 @@
+.backgroundContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.orderButton {
+  width: calc(325px*2);
+  height: calc(85px*2);
+  border-radius: 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 54px;
+  border: #f3f3f3 solid 6px;
+}
+
+.orderButton:hover {
+  background-color: rgba(0, 0, 0, 1);
+  border: #f3f3f3 solid 6px;
+}
