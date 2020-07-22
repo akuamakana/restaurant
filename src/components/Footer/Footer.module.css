@@ -1,4 +1,15 @@
 .footer {
-  width: 100vw;
-  background-color: green;
+  width: 100%;
+  background-color: #F8F9FA;
+  height: 30px;
+  color: #666666;
+}
+
+.row {
+  
+}
+
+.col {
+  margin-top: 20px;
+  background-color: #F8F9FA;
 }

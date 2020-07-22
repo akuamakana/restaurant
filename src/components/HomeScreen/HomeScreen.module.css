@@ -18,4 +18,25 @@
 .orderButton:hover {
   background-color: rgba(0, 0, 0, 1);
   border: #f3f3f3 solid 6px;
+  color: #fff;
+}
+
+.orderButton:active {
+  background-color: rgba(0, 0, 0, 1) !important;
+  border: #f3f3f3 solid 6px !important;
+  outline: none !important;
+  color: #fff;
+}
+
+@media(max-width: 768px) {
+  .orderButton {
+    width: 325px;
+    height: 85px;
+    font-size: 24px;
+  }
+
+  .orderButton:hover {
+    background-color: rgba(0, 0, 0, 1);
+    border: #f3f3f3 solid 6px;
+  }
 }

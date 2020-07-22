@@ -1,19 +1,20 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header/Header';
-import HomeScreen from './components/HomeScreen/HomeScreen';
-import Footer from './components/Footer/Footer'
-import background from './images/background.jpg';
+import Home from './pages/Home';
+import Menu from './pages/Menu';
+import Restaurant from './pages/Restaurant';
+import ContactUs from './pages/ContactUs';
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <>
-      <div style={{ backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat' }}>
-        <Header />
-        <HomeScreen />
-        <Footer/>
-      </div>
-    </>
+    <Router>
+      <Switch>
+        <Route path='/menu' component={Menu}/>
+        <Route path='/restaurant' component={Restaurant}/>
+        <Route path='/contact-us' component={ContactUs}/>
+        <Route path="/" component={Home} />
+      </Switch>
+    </Router>
   );
 }
 

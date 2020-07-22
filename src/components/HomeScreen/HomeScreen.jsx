@@ -7,7 +7,7 @@ import styles from './HomeScreen.module.css'
 function HomeScreen() {
   return (
     <Container fluid className={styles.backgroundContainer}>
-      <Button className={styles.orderButton}>ORDER ONLINE</Button>
+      <Button variant="dark" className={styles.orderButton}>ORDER ONLINE</Button>
     </Container>
   )
 }
