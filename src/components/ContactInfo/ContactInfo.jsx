@@ -3,7 +3,7 @@ import styles from './ContactInfo.module.css'
 
 function ContactInfo() {
   return (
-    <div style={{textAlign: 'center', alignSelf: 'center'}}>
+    <div className={styles.container}>
       <br/>
       <h1>Pinkaow Rainbow</h1>
       <h3>North Rainbow and Lake Mead</h3>

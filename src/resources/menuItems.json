@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Egg Rolls",
+    "price": "$7.95",
+    "category": "starter",
+    "isSpicy": "FALSE",
+    "id": "uuidv4()"
+  },
+  {
+    "name": "Shrimp Rolls",
+    "price": "$7.95",
+    "category": "starter",
+    "isSpicy": "FALSE",
+    "id": "uuidv4()"
+  },
+  {
+    "name": "Crab Rangoon",
+    "price": "$6.95",
+    "category": "starter",
+    "isSpicy": "FALSE",
+    "id": "uuidv4()"
+  },
+  {
+    "name": "Edamame",
+    "price": "$9.95",
+    "category": "starter",
+    "isSpicy": "FALSE",
+    "id": "uuidv4()"
+  },
+  {
+    "name": "Thai fried Dumpling",
+    "price": "$4.00",
+    "category": "starter",
+    "isSpicy": "FALSE",
+    "id": "uuidv4()"
+  },
+  {
+    "name": "Shrimp Tom-Yum ( Hot Pot )",
+    "price": "$9.95",
+    "category": "soups",
+    "isSpicy": "TRUE",
+    "id": "uuidv4()"
+  },
+  {
+    "name": "Shrimp Tom-Yum ( Bowl )",
+    "price": "$7.95",
+    "category": "soups",
+    "isSpicy": "TRUE",
+    "id": "uuidv4()"
+  },
+  {
+    "name": "Chicken Tom-Kha ( Bowl )",
+    "price": "$7.95",
+    "category": "soups",
+    "isSpicy": "TRUE",
+    "id": "uuidv4()"
+  },
+  {
+    "name": "Chicken Tom-Yum ( Hot Pot )",
+    "price": "$6.95",
+    "category": "soups",
+    "isSpicy": "TRUE",
+    "id": "uuidv4()"
+  },
+  {
+    "name": "Chicken Tom-Yum ( Bowl )",
+    "price": "$4.00",
+    "category": "soups",
+    "isSpicy": "TRUE",
+    "id": "uuidv4()"
+  }
+]
