@@ -8,3 +8,13 @@
   font-weight: 600 !important;
   color: #686868
 }
+
+.navbar {
+  width: 100%;
+}
+
+@media(max-width: 660px) {
+  .navbar {
+    margin-bottom: 1000px;
+  }
+}

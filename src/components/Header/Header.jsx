@@ -16,7 +16,7 @@ function Header() {
   };
 
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" className='static-top'>
       <Navbar.Brand>
         <img src={logo} alt="logo" width="217px" height="81px" />
       </Navbar.Brand>

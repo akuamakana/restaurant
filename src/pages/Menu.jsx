@@ -11,12 +11,12 @@ function Menu() {
     <div>
       <Header />
       <Container fluid style={{height: '90vh', alignItems: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column' }}>
-        <Row>
+        <Row lg={12}>
           <Col>
             <MenuCarousel />
           </Col>
         </Row>
-        <Row>
+        <Row lg={12}>
           <Col>
             <MenuDownload />
           </Col>

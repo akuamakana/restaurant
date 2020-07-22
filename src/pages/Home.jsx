@@ -8,7 +8,7 @@ function Home() {
   document.body.classList.add('overflow-hidden')
 
   return (
-    <div style={{ backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'fixed' }}>
+    <div style={{ backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'fixed',  backgroundPosition: 'center' }}>
       <Header />
       <HomeScreen />
     </div>

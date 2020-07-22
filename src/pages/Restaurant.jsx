@@ -12,7 +12,7 @@ function Restaurant() {
       <Header />
       <Container fluid style={{ height: '90vh', justifyContent: 'center', alignItems: 'center', display: 'flex' }}>
         <Row style={{alignItems: 'center', alignSelf: 'center', marginBottom: '100px'}}>
-          <Col sm={12} lg={6} style={{ textAlign: 'center', padding: '0 85px' }}>
+          <Col sm={12} lg={6} style={{ textAlign: 'center', padding: '0 85px',marginTop: '50px' }}>
             <h1>Our Story</h1>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid distinctio libero consectetur culpa odio debitis ab modi, rerum obcaecati sapiente delectus! Exercitationem non ipsum odio
