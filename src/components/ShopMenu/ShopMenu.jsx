@@ -3,11 +3,14 @@ import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
 import Table from 'react-bootstrap/Table';
 
-import menuItems from '../../resources/menuItems.json';
+import allItems from '../../resources/menuItems.json';
 import ShopMenuItem from '../ShopMenuItem/ShopMenuItem';
 
 function ShopMenu(props) {
   const { cartItems, setCartItems } = props;
+  const menuItems = allItems.map((item, id) => Object.assign(item, { id }))
+
+  console.log(menuItems);
 
   const getCategories = () => {
     let categories = menuItems.map((item) => item.category);
