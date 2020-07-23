@@ -31,28 +31,28 @@ function Header() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link>
+          <Nav.Link as='div'>
             <NavLink to="/" exact style={linkStyle} activeStyle={activeLinkStyle}>
               HOME
             </NavLink>
           </Nav.Link>
-          <Nav.Link>
+          <Nav.Link as='div'>
             <NavLink to="/menu" style={linkStyle} activeStyle={activeLinkStyle}>
               MENU
             </NavLink>
           </Nav.Link>
-          <Nav.Link>
+          <Nav.Link as='div'>
             <NavLink to="/restaurant" style={linkStyle} activeStyle={activeLinkStyle}>
               RESTAURANT
             </NavLink>
           </Nav.Link>
-          <Nav.Link>
+          <Nav.Link as='div'>
             <NavLink to="/contact-us" style={linkStyle} activeStyle={activeLinkStyle}>
               CONTACT US
             </NavLink>
           </Nav.Link>
-          <Nav.Link>
-            <NavLink to="/store" style={orderLinkStyle} activeStyle={activeOrderLinkStyle}>
+          <Nav.Link as='div'>
+            <NavLink to="/shop" style={orderLinkStyle} activeStyle={activeOrderLinkStyle}>
               ORDER ONLINE
             </NavLink>
           </Nav.Link>

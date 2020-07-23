@@ -3,7 +3,7 @@ import Home from './pages/Home';
 import Menu from './pages/Menu';
 import Restaurant from './pages/Restaurant';
 import ContactUs from './pages/ContactUs';
-import OrderOnline from './pages/OrderOnline'
+import Shop from './pages/Shop'
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
         <Route path='/menu' component={Menu}/>
         <Route path='/restaurant' component={Restaurant}/>
         <Route path='/contact-us' component={ContactUs}/>
-        <Route path='/store' component={OrderOnline}/>
+        <Route path='/shop' component={Shop}/>
         <Route path="/" component={Home} />
       </Switch>
     </Router>

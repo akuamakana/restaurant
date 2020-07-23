@@ -1,11 +1,13 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 
-function ShopMenuItem() {
+function ShopMenuItem(props) {
+  const { item } = props;
+
   return (
     <tr>
-      <td>Egg Rolls</td>
-      <td>$7.95</td>
+      <td>{item.name}</td>
+      <td>{item.price}</td>
       <td>
         <Button>Add</Button>
       </td>
