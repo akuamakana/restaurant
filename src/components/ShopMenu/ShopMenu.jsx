@@ -6,7 +6,9 @@ import Table from 'react-bootstrap/Table';
 import menuItems from '../../resources/menuItems.json';
 import ShopMenuItem from '../ShopMenuItem/ShopMenuItem';
 
-function ShopMenu() {
+function ShopMenu(props) {
+  const { cartItems, setCartItems } = props;
+
   const getCategories = () => {
     let categories = menuItems.map((item) => item.category);
     categories = categories.filter((category, i, uniqueCategories) => uniqueCategories.indexOf(category) === i);
@@ -15,26 +17,25 @@ function ShopMenu() {
 
   const uniqueCategories = getCategories();
 
-  const categoryTabs = uniqueCategories.map((category) => {
+  const renderTabs = uniqueCategories.map((category) => {
     const categorizedItems = menuItems.filter((item) => item.category === category);
     return (
       <Tab eventKey={category} title={category} key={category}>
-        <Table striped>
+        <Table striped responsive>
           <tbody>
             {categorizedItems.map((item, i) => (
-              <ShopMenuItem category={category} key={i} item={item} />
+              <ShopMenuItem category={category} key={i} item={item} cartItems={cartItems} setCartItems={setCartItems}/>
             ))}
           </tbody>
         </Table>
       </Tab>
     );
   });
-  console.log(categoryTabs);
 
   return (
-    <Tabs defaultActiveKey={uniqueCategories[0]}>
-      {categoryTabs}
-    </Tabs>
+    <div style={{width: '75%', margin: '0 auto'}}>
+      <Tabs defaultActiveKey={uniqueCategories[0]}>{renderTabs}</Tabs>
+    </div>
   );
 }
 
