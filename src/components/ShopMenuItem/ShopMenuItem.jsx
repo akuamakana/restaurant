@@ -5,7 +5,13 @@ function ShopMenuItem(props) {
   const { item, cartItems, setCartItems } = props;
 
   const addToCart = (item) => {
-    const updatedCart = [...cartItems, item]
+    let updatedCart
+    if (!item.quantity) {
+      Object.assign(item, {quantity: 1})
+    } else {
+      item.quantity += 1
+    }
+    updatedCart = [...cartItems, item]
     setCartItems(updatedCart)
   }
 
