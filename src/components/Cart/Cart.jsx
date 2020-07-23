@@ -15,7 +15,7 @@ function Cart(props) {
   const handleShow = () => setShow(true);
 
   const renderCartItems = cartItems.map((item, i) => {
-    return <CartItem item={item} key={i} />;
+    return <CartItem item={item} key={i} cartItems={cartItems} setCartItems={setCartItems}/>;
   });
 
   return (

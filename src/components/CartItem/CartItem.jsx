@@ -5,6 +5,11 @@ import Button from 'react-bootstrap/Button';
 
 function CartItem(props) {
   const {item} = props
+
+  const deleteItem = () => {
+
+  }
+
   return (
     <tr style={{width: '100%'}}>
       <td>{item.name}</td>
@@ -24,7 +29,7 @@ function CartItem(props) {
         </Form.Control>
       </td>
       <td>
-        <Button variant='danger' size="sm" style={{float: 'right', marginRight: '5px'}}>Delete</Button>
+        <Button variant='danger' size="sm" style={{float: 'right', marginRight: '5px'}} onClick={() => console.log(item)}>Delete</Button>
       </td>
     </tr>
   );
