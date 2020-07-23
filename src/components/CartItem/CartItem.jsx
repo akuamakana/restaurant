@@ -4,10 +4,12 @@ import Button from 'react-bootstrap/Button';
 
 
 function CartItem(props) {
-  const {item} = props
+  const {item, cartItems, setCartItems } = props
 
-  const deleteItem = () => {
-
+  const deleteItem = (id) => {
+    let updatedCart = [...cartItems]
+    updatedCart = updatedCart.filter(item => item.id !== id)
+    setCartItems(updatedCart)
   }
 
   return (
@@ -29,7 +31,7 @@ function CartItem(props) {
         </Form.Control>
       </td>
       <td>
-        <Button variant='danger' size="sm" style={{float: 'right', marginRight: '5px'}} onClick={() => console.log(item)}>Delete</Button>
+        <Button variant='danger' size="sm" style={{float: 'right', marginRight: '5px'}} onClick={() => deleteItem(item.id)}>Delete</Button>
       </td>
     </tr>
   );
