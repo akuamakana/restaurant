@@ -12,12 +12,15 @@ function CartItem(props) {
     setCartItems(updatedCart)
   }
 
+  let select = document.getElementById('select')
+  console.log(select);
+
   return (
     <tr style={{width: '100%'}}>
       <td>{item.name}</td>
       <td>{item.price}</td>
       <td>
-        <Form.Control size="sm" as="select" style={{marginLeft: '10px'}}>
+        <Form.Control size="sm" as="select" id='select' style={{marginLeft: '10px'}}>
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>

@@ -12,6 +12,7 @@ function ShopMenuItem(props) {
       item.quantity += 1
     }
     updatedCart = [...cartItems, item]
+    updatedCart = updatedCart.filter((item, i, uniqueCart) => uniqueCart.indexOf(item) === i)
     setCartItems(updatedCart)
   }
 

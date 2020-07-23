@@ -8,7 +8,7 @@ import ShopMenuItem from '../ShopMenuItem/ShopMenuItem';
 
 function ShopMenu(props) {
   const { cartItems, setCartItems } = props;
-  const menuItems = allItems.map((item, id) => Object.assign(item, { id }))
+  const menuItems = allItems.map((item, id) => Object.assign(item, { id }));
 
   console.log(menuItems);
 
@@ -27,7 +27,7 @@ function ShopMenu(props) {
         <Table striped responsive>
           <tbody>
             {categorizedItems.map((item, i) => (
-              <ShopMenuItem category={category} key={i} item={item} cartItems={cartItems} setCartItems={setCartItems}/>
+              <ShopMenuItem category={category} key={i} item={item} cartItems={cartItems} setCartItems={setCartItems} />
             ))}
           </tbody>
         </Table>
@@ -36,7 +36,7 @@ function ShopMenu(props) {
   });
 
   return (
-    <div style={{width: '75%', margin: '0 auto'}}>
+    <div style={{ width: '75%', margin: '0 auto' }}>
       <Tabs defaultActiveKey={uniqueCategories[0]}>{renderTabs}</Tabs>
     </div>
   );
