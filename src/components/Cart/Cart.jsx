@@ -15,8 +15,15 @@ function Cart(props) {
   const handleShow = () => setShow(true);
 
   const renderCartItems = cartItems.map((item, i) => {
-    return <CartItem item={item} key={i} cartItems={cartItems} setCartItems={setCartItems}/>;
+    return <CartItem item={item} key={i} cartItems={cartItems} setCartItems={setCartItems} />;
   });
+
+  const getTotal = () => {
+    if (!cartItems.length) return '0.00';
+    let totalOfItems = cartItems.map((item) => item.price * item.quantity);
+    totalOfItems = totalOfItems.reduce((total, price) => total + price);
+    return totalOfItems.toFixed(2);
+  };
 
   return (
     <>
@@ -36,6 +43,7 @@ function Cart(props) {
           </Table>
         </Modal.Body>
         <Modal.Footer>
+          <h2 style={{ marginRight: 'auto' }}>{`Total: $${getTotal()}`}</h2>
           <Button variant="secondary" onClick={handleClose}>
             Checkout
           </Button>

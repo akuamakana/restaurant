@@ -19,7 +19,7 @@ function ShopMenuItem(props) {
   return (
     <tr>
       <td>{item.name}</td>
-      <td>{item.price}</td>
+      <td>${item.price.toFixed(2)}</td>
       <td>
         <Button variant="light" size='sm' style={{float: 'right',}} onClick={() => addToCart(item)}>
           Add To Cart
