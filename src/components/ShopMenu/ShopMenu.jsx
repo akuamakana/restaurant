@@ -45,7 +45,7 @@ function ShopMenu(props) {
   
   return (
     <div style={{ width: '75%', margin: '0 auto' }}>
-      <Tabs defaultActiveKey={uniqueCategories[0]}>{renderTabs}</Tabs>
+      <Tabs defaultActiveKey={uniqueCategories[0]} style={{justifyContent: 'center'}}>{renderTabs}</Tabs>
     </div>
   );
 }

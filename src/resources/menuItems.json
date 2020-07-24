@@ -1,61 +1,242 @@
-[{
+[
+  {
     "name": "Egg Rolls",
     "price": 7.95,
-    "category": "starter",
-    "isSpicy": false
+    "category": "starter"
   },
   {
     "name": "Shrimp Rolls",
     "price": 7.95,
-    "category": "starter",
-    "isSpicy": false
+    "category": "starter"
   },
   {
     "name": "Crab Rangoon",
     "price": 6.95,
-    "category": "starter",
-    "isSpicy": false
+    "category": "starter"
   },
   {
     "name": "Edamame",
     "price": 9.95,
-    "category": "starter",
-    "isSpicy": false
+    "category": "starter"
   },
   {
     "name": "Thai fried Dumpling",
-    "price": 4.00,
-    "category": "starter",
-    "isSpicy": false
+    "price": 4,
+    "category": "starter"
   },
   {
     "name": "Shrimp Tom-Yum ( Hot Pot )",
     "price": 9.95,
-    "category": "soups",
-    "isSpicy": true
+    "category": "soups"
   },
   {
     "name": "Shrimp Tom-Yum ( Bowl )",
     "price": 7.95,
-    "category": "soups",
-    "isSpicy": true
+    "category": "soups"
   },
   {
     "name": "Chicken Tom-Kha ( Bowl )",
     "price": 7.95,
-    "category": "soups",
-    "isSpicy": true
+    "category": "soups"
   },
   {
     "name": "Chicken Tom-Yum ( Hot Pot )",
     "price": 6.95,
-    "category": "soups",
-    "isSpicy": true
+    "category": "soups"
   },
   {
     "name": "Chicken Tom-Yum ( Bowl )",
     "price": 4,
-    "category": "soups",
-    "isSpicy": true
+    "category": "soups"
+  },
+  {
+    "name": "Crab Meat Fried Rice",
+    "price": 12.95,
+    "category": "fried rice"
+  },
+  {
+    "name": "Fried Rice Chicken",
+    "price": 9.95,
+    "category": "fried rice"
+  },
+  {
+    "name": "Fried Rice Beef",
+    "price": 11.95,
+    "category": "fried rice"
+  },
+  {
+    "name": "Fried Rice Pork",
+    "price": 10.95,
+    "category": "fried rice"
+  },
+  {
+    "name": "Fried Rice Shrimp",
+    "price": 12.95,
+    "category": "fried rice"
+  },
+  {
+    "name": "Spicy basil Duck",
+    "price": 15.95,
+    "category": "entrees"
+  },
+  {
+    "name": "Cashew Nut Fried Tofu",
+    "price": 11.95,
+    "category": "entrees"
+  },
+  {
+    "name": "Cashew Nut Steamed Tofu",
+    "price": 13.95,
+    "category": "entrees"
+  },
+  {
+    "name": "Cashew Nut Shrimp",
+    "price": 11.95,
+    "category": "entrees"
+  },
+  {
+    "name": "Kung Pao Chicken",
+    "price": 13.95,
+    "category": "entrees"
+  },
+  {
+    "name": "Red Curry Chicken",
+    "price": 16.95,
+    "category": "curries"
+  },
+  {
+    "name": "Red Curry Beef",
+    "price": 11.95,
+    "category": "curries"
+  },
+  {
+    "name": "Red Curry Pork",
+    "price": 11.95,
+    "category": "curries"
+  },
+  {
+    "name": "Red Curry Shrimp",
+    "price": 13.95,
+    "category": "curries"
+  },
+  {
+    "name": "Red Curry Fried Tofu",
+    "price": 11.95,
+    "category": "curries"
+  },
+  {
+    "name": "Pad Thai chicken",
+    "price": 11.95,
+    "category": "noodles"
+  },
+  {
+    "name": "Pad Thai Beef",
+    "price": 13.95,
+    "category": "noodles"
+  },
+  {
+    "name": "Pad Thai Pork",
+    "price": 11.95,
+    "category": "noodles"
+  },
+  {
+    "name": "Pad Thai Shrimp",
+    "price": 13.95,
+    "category": "noodles"
+  },
+  {
+    "name": "Pad Thai Fried Tofu",
+    "price": 11.95,
+    "category": "noodles"
+  },
+  {
+    "name": "Asparagus Chicken",
+    "price": 11.95,
+    "category": "vegetables"
+  },
+  {
+    "name": "Chinese Broccoli With Crispy Pork",
+    "price": 13.95,
+    "category": "vegetables"
+  },
+  {
+    "name": "Chinese Broccoli with Duck",
+    "price": 11.95,
+    "category": "vegetables"
+  },
+  {
+    "name": "Snow Pea Chicken",
+    "price": 13.95,
+    "category": "vegetables"
+  },
+  {
+    "name": "Ginger Dish Chicken",
+    "price": 11.95,
+    "category": "vegetables"
+  },
+  {
+    "name": "Salmon Pad Thai",
+    "price": 11.95,
+    "category": "chef suggestions"
+  },
+  {
+    "name": "Trout Lemongrass Salad",
+    "price": 14.95,
+    "category": "chef suggestions"
+  },
+  {
+    "name": "Gulf of Thailand",
+    "price": 16.95,
+    "category": "chef suggestions"
+  },
+  {
+    "name": "Pinkaow Tilapia",
+    "price": 11.95,
+    "category": "chef suggestions"
+  },
+  {
+    "name": "Garlic Seabass",
+    "price": 11.95,
+    "category": "chef suggestions"
+  },
+  {
+    "name": "Sweet sticky rice with mango",
+    "price": 5,
+    "category": "dessert"
+  },
+  {
+    "name": "Sweet sticky rice with ice cream",
+    "price": 5,
+    "category": "dessert"
+  },
+  {
+    "name": "Fried banana with ice cream",
+    "price": 3,
+    "category": "dessert"
+  },
+  {
+    "name": "Thai Iced Tea",
+    "price": 4,
+    "category": "beverages"
+  },
+  {
+    "name": "Thai Iced Coffee",
+    "price": 4,
+    "category": "beverages"
+  },
+  {
+    "name": "Coke",
+    "price": 2.5,
+    "category": "beverages"
+  },
+  {
+    "name": "Sprite",
+    "price": 2.5,
+    "category": "beverages"
+  },
+  {
+    "name": "Lemonade",
+    "price": 2.5,
+    "category": "beverages"
   }
-]
+ ]

@@ -18,6 +18,13 @@ function Cart(props) {
     return <CartItem item={item} key={i} cartItems={cartItems} setCartItems={setCartItems} />;
   });
 
+  const getCartItemQuan = () => {
+    if (!cartItems.length) return 0
+    let allCurrentItems = cartItems.map(item => item.quantity)
+    allCurrentItems = allCurrentItems.reduce((total, quantity) => parseFloat(total) + parseFloat(quantity))
+    return allCurrentItems
+  }
+
   const getTotal = () => {
     if (!cartItems.length) return '0.00';
     let totalOfItems = cartItems.map((item) => item.price * item.quantity);
@@ -29,6 +36,7 @@ function Cart(props) {
     <>
       <IconContext.Provider value={{ size: '2em' }}>
         <Button style={{ position: 'fixed', right: '0', borderRadius: '0' }} variant="light" onClick={handleShow}>
+          <p><strong>{getCartItemQuan()}</strong></p>
           <GrCart />
         </Button>
       </IconContext.Provider>
