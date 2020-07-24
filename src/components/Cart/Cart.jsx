@@ -43,7 +43,7 @@ function Cart(props) {
 
       <Modal show={show} onHide={handleClose} animation={false} centered>
         <Modal.Header closeButton>
-          <Modal.Title>{`Cart (${cartItems.length})`}</Modal.Title>
+          <Modal.Title>{`Cart (${getCartItemQuan()})`}</Modal.Title>
         </Modal.Header>
         <Modal.Body style={{ padding: '0' }}>
           <Table style={{ marginBottom: '0' }} striped>
