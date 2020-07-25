@@ -1,0 +1,49 @@
+name,price,category
+Egg Rolls,7.95,starter
+Shrimp Rolls,7.95,starter
+Crab Rangoon,6.95,starter
+Edamame,9.95,starter
+Thai fried Dumpling,4,starter
+Shrimp Tom-Yum ( Hot Pot ),9.95,soups
+Shrimp Tom-Yum ( Bowl ),7.95,soups
+Chicken Tom-Kha ( Bowl ),7.95,soups
+Chicken Tom-Yum ( Hot Pot ),6.95,soups
+Chicken Tom-Yum ( Bowl ),4,soups
+Crab Meat Fried Rice,12.95,fried rice
+Fried Rice Chicken,9.95,fried rice
+Fried Rice Beef,11.95,fried rice
+Fried Rice Pork,10.95,fried rice
+Fried Rice Shrimp,12.95,fried rice
+Spicy basil Duck,15.95,entrees
+Cashew Nut Fried Tofu,11.95,entrees
+Cashew Nut Steamed Tofu,13.95,entrees
+Cashew Nut Shrimp,11.95,entrees
+Kung Pao Chicken,13.95,entrees
+Red Curry Chicken,16.95,curries
+Red Curry Beef,11.95,curries
+Red Curry Pork,11.95,curries
+Red Curry Shrimp,13.95,curries
+Red Curry Fried Tofu,11.95,curries
+Pad Thai chicken,11.95,noodles
+Pad Thai Beef,13.95,noodles
+Pad Thai Pork,11.95,noodles
+Pad Thai Shrimp,13.95,noodles
+Pad Thai Fried Tofu,11.95,noodles
+Asparagus Chicken,11.95,vegetables
+Chinese Broccoli With Crispy Pork,13.95,vegetables
+Chinese Broccoli with Duck,11.95,vegetables
+Snow Pea Chicken,13.95,vegetables
+Ginger Dish Chicken,11.95,vegetables
+Salmon Pad Thai,11.95,chef suggestions
+Trout Lemongrass Salad,14.95,chef suggestions
+Gulf of Thailand,16.95,chef suggestions
+Pinkaow Tilapia,11.95,chef suggestions
+Garlic Seabass,11.95,chef suggestions
+Sweet sticky rice with mango,5.00,dessert
+Sweet sticky rice with ice cream,5.00,dessert
+Fried banana with ice cream,3.00,dessert
+Thai Iced Tea,4.00,beverages
+Thai Iced Coffee,4.00,beverages
+Coke,2.50,beverages
+Sprite,2.50,beverages
+Lemonade,2.50,beverages
